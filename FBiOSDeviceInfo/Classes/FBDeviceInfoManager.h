@@ -1,20 +1,17 @@
-# FBiOSDeviceInfo
+//
+//  FBDeviceInfoManager.h
+//  ClientTest
+//
+//  Created by 张学阳 on 2018/5/22.
+//  Copyright © 2018年 王鹏飞. All rights reserved.
+//
 
+#import <Foundation/Foundation.h>
 
-### pod管理
-```ruby
-pod 'FBiOSDeviceInfo'
-```
+@interface FBDeviceInfoManager : NSObject
 
-## 快速获取手机内的信息
-
-```
-
-#import <FBiOSDeviceInfo/FBDeviceInfoManager.h>
-
-
-
-NSLog(@"---- %@",[[FBDeviceInfoManager sharedDevieInfoManager] fb_getDeviceUserName]);
+#pragma mark -------- 单例管理类
++(instancetype)sharedDevieInfoManager;
 
 
 #pragma mark -------- HARDWARE INFO(硬件设备信息)
@@ -88,4 +85,6 @@ NSLog(@"---- %@",[[FBDeviceInfoManager sharedDevieInfoManager] fb_getDeviceUserN
 //}
 - (NSDictionary *)fetchSSIDInfo;
 
-```
+
+
+@end

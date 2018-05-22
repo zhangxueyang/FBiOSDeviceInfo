@@ -1,0 +1,6 @@
+framework module FBiOSDeviceInfo {
+  umbrella header "FBiOSDeviceInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

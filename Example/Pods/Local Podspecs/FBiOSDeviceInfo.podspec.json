@@ -1,0 +1,22 @@
+{
+  "name": "FBiOSDeviceInfo",
+  "version": "0.1.0",
+  "summary": "A short description of FBiOSDeviceInfo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangxueyang/FBiOSDeviceInfo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangxueyang": "cocoazxy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangxueyang/FBiOSDeviceInfo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FBiOSDeviceInfo/Classes/**/*"
+}

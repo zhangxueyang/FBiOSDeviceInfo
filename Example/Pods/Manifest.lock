@@ -1,0 +1,16 @@
+PODS:
+  - FBiOSDeviceInfo (0.1.0)
+
+DEPENDENCIES:
+  - FBiOSDeviceInfo (from `../`)
+
+EXTERNAL SOURCES:
+  FBiOSDeviceInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBiOSDeviceInfo: e8341d000f531755f44a94ffbe7f4d1336caaa2d
+
+PODFILE CHECKSUM: bf20fe80a34c6732cdcc1de411815a3bbe3b9c2e
+
+COCOAPODS: 1.5.0

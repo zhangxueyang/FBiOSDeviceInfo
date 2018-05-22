@@ -7,6 +7,7 @@
 //
 
 #import "FBViewController.h"
+#import <FBiOSDeviceInfo/FBDeviceInfoManager.h>
 
 @interface FBViewController ()
 
@@ -17,13 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"---- %@",[[FBDeviceInfoManager sharedDevieInfoManager] fb_getDeviceName]);
+    NSLog(@"---- %@",[[FBDeviceInfoManager sharedDevieInfoManager] fb_getDeviceUserName]);
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

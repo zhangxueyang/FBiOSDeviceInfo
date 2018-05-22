@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FBiOSDeviceInfo_Example' do
+  pod 'FBiOSDeviceInfo', :path => '../'
+
+  target 'FBiOSDeviceInfo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

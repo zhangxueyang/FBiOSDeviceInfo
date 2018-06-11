@@ -3,7 +3,6 @@
 //  ClientTest
 //
 //  Created by 张学阳 on 2018/5/22.
-//  Copyright © 2018年 王鹏飞. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -27,7 +26,7 @@
 /** 获取mac地址 */
 - (NSString *)fb_getMacAddress;
 /** 获取广告标识符 */
-- (NSString *)fb_getIDFA;
+//- (NSString *)fb_getIDFA;
 - (NSString *)fb_getDeviceModel;
 /** 获取设备上次重启的时间 */
 - (NSDate *)fb_getSystemUptime;

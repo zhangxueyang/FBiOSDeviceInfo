@@ -3,8 +3,8 @@
 //  ClientTest
 //
 //  Created by 张学阳 on 2018/5/22.
-//  Copyright © 2018年 王鹏飞. All rights reserved.
-//
+
+
 
 #import "FBDeviceInfoManager.h"
 #import "sys/utsname.h"
@@ -139,9 +139,9 @@ static FBDeviceInfoManager *sharedManager = nil;
 /** 获取广告标识符
  广告位标识符：在同一个设备上的所有App都会取到相同的值，是苹果专门给各广告提供商用来追踪用户而设的，用户可以在 设置|隐私|广告追踪里重置此id的值，或限制此id的使用，故此id有可能会取不到值，但好在Apple默认是允许追踪的，而且一般用户都不知道有这么个设置，所以基本上用来监测推广效果，是戳戳有余了
  */
-- (NSString *)fb_getIDFA{
-    return [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
-}
+//- (NSString *)fb_getIDFA{
+//    return [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+//}
 
 - (NSString *)fb_getDeviceModel{
     struct utsname systemInfo;

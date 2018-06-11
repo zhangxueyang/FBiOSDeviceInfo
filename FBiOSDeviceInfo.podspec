@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FBiOSDeviceInfo'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '快速获取iOS设备的一些信息'
 
 

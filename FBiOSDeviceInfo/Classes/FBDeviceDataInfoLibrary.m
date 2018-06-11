@@ -3,8 +3,6 @@
 //  ClientTest
 //
 //  Created by 张学阳 on 2018/5/22.
-//  Copyright © 2018年 王鹏飞. All rights reserved.
-//
 
 #import "FBDeviceDataInfoLibrary.h"
 #import "sys/utsname.h"

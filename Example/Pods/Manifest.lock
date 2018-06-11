@@ -1,5 +1,5 @@
 PODS:
-  - FBiOSDeviceInfo (0.1.0)
+  - FBiOSDeviceInfo (0.2.0)
 
 DEPENDENCIES:
   - FBiOSDeviceInfo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBiOSDeviceInfo: e8341d000f531755f44a94ffbe7f4d1336caaa2d
+  FBiOSDeviceInfo: 2a15e63afb6421204fc437436dbd7c7420f9b880
 
 PODFILE CHECKSUM: bf20fe80a34c6732cdcc1de411815a3bbe3b9c2e
 
